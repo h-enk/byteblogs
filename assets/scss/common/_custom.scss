@@ -26,7 +26,7 @@ h6,
 }
 
 .single.blog .content p,
-.list.blog .content p {
+.home .card-body p {
   font-size: $font-size-base * 1.375;
 }
 
@@ -161,4 +161,12 @@ img.zoomed {
     position: fixed;
     z-index: 100000;
     background: black;
+}
+
+.home .card {
+    transition: transform 0.3s;
+}
+
+.home .card:hover {
+    transform: scale(1.025);
 }
